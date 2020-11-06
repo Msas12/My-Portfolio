@@ -1,0 +1,11 @@
+* {
+    background-color: darkgray;
+}
+
+.nav {
+    color: black;
+}
+
+.nav-item {
+    margin: 20px; 
+}
