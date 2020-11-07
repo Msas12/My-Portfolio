@@ -1,5 +1,9 @@
 /* BACKGROUND ANIMATION */
     /* Soucrce: https://freefrontend.com/css-animated-backgrounds/ */
+* {
+    font-family: 'Righteous', cursive;
+}
+
 body{
     background: #3399ff;
   }
@@ -7,6 +11,7 @@ body{
   
   .circle{
     position: absolute;
+    z-index: 1;
     border-radius: 50%;
     background: white;
     animation: ripple 15s infinite;
@@ -88,6 +93,11 @@ body{
     text-align: center;
     padding: 10px;
 }
+
+.main-heading {
+    font-family: 'Righteous', cursive;
+    font-size: 400%;
+}
 /* HEADER END */
   
 /* NAVBAR */
@@ -100,11 +110,28 @@ body{
 }
 
 .nav-pills {
-    justify-content: center;
+    justify-content: center; /* Centers Links */
 }
 
-.nav-link .active {
-    border-radius: 25px;
-    background-color: #3399ff;
+.nav-link :active {
+    border-radius: 25px; /* Trying to Round Active Link Pill */
+    color: red;
 }
 /* NAVBAR END */
+
+/* JUMBOTRON */
+.jumbotron {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 75%;
+    border-radius: 25px;
+    background-color: #e7f3ff;
+}
+
+.display-4 {
+    font-size: xx-large;
+}
+
+/* JUMBOTRON END */

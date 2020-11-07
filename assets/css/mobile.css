@@ -1,0 +1,10 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    /*.burger-nav {
+        display: block;
+        height: 40px;
+        width: 100%;
+        background-image: url(./assets/images/burger.png);
+        background-color: #e7f3ff;
+        cursor: pointer;
+    }

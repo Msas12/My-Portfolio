@@ -1,0 +1,36 @@
+/* JUMBOTRON */
+.jumbotron {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+    background-color: #e7f3ff;
+}
+
+.display-4 {
+    font-size: 300%;
+}
+
+img {
+    border-radius: 25px;
+    max-width: auto;
+    height: 400px;
+}
+
+.aboutmelist {
+    float: right;
+    margin-right: 20%;
+    font-size: 150%;
+
+}
+
+
+.btn {
+    margin-top: 50px;
+
+}
+
+/* JUMBOTRON END */
