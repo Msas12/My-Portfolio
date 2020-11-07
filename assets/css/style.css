@@ -89,6 +89,8 @@ body{
 
 /* HEADER */
 .main-title {
+    position: relative;
+    z-index: 2;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -102,6 +104,8 @@ body{
   
 /* NAVBAR */
 .nav {
+    position: relative;
+    z-index: 2;
     margin: 0 auto;
     background-color: #e7f3ff;
     width: 90%;
@@ -119,19 +123,4 @@ body{
 }
 /* NAVBAR END */
 
-/* JUMBOTRON */
-.jumbotron {
-    position: relative;
-    z-index: 2;
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 75%;
-    border-radius: 25px;
-    background-color: #e7f3ff;
-}
 
-.display-4 {
-    font-size: xx-large;
-}
-
-/* JUMBOTRON END */
