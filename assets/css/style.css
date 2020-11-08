@@ -113,10 +113,8 @@ body{
     padding: 10px;
 }
 
-a .nav-link {
-    margin: 0 auto;
+.nav .active {
+    border-radius: 25px; /*Cannont figure out how to change element active */
 }
-
-/* NAVBAR END */
 
 

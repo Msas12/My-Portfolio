@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+
+}
+
+.row {
+    margin-top: 40px;
+
+}
+
+.myimgs {
+    width: 100%;
+    height: auto;
+}

@@ -22,7 +22,11 @@ img {
 
 .btn {
     margin-top: 50px;
+    border-radius: 25px;
+}
 
+#aboutmelist {
+    font-size: 200%;
 }
 
 /* JUMBOTRON END */
