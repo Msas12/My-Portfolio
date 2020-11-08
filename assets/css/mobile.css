@@ -1,9 +1,55 @@
-/* Medium devices (landscape phones, 1000px up until 500px) */
+/* Medium devices (landscape phones, 1000px until 500px) */
 @media (max-width: 1000px) {
 
     #aboutmelist {
         font-size: 150%;
     }
+
+}
+
+/* Medium devices (landscape phones, 767px up until 500px) */
+@media (max-width: 767px) {
+
+    #aboutmelist {
+        font-size: 150%;
+        margin-top: 20px;
+    }
+
+    .small{
+        width: 150px;
+        height: 150px;
+        left: -75px;
+        bottom: -75px;
+      }
+      
+      .medium{
+        width: 300px;
+        height: 300px;
+        left: -150px;
+        bottom: -150px;
+      }
+      
+      .large{
+        width: 450px;
+        height: 450px;
+        left: -225px;
+        bottom: -225px;
+      }
+      
+      .xlarge{
+        width: 600px;
+        height: 600px;
+        left: -300px;
+        bottom: -300px;
+      }
+      
+      .xxlarge{
+        width: 750px;
+        height: 750px;
+        left: -375px;
+        bottom: -375px;
+      }
+
 }
 
 
@@ -15,12 +61,13 @@
 
     form {
         margin: 0 auto;
-        width: 90%;
+        width: 85%;
     }
 
     #aboutmelist {
         font-size: 90%;
     }
+
     .small{
         width: 100px;
         height: 100px;
@@ -54,6 +101,9 @@
         height: 500px;
         left: -250px;
         bottom: -250px;
+      }
+    
+}
 
 
     /*.burger-nav {
