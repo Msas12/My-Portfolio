@@ -103,24 +103,20 @@ body{
 /* HEADER END */
   
 /* NAVBAR */
-.nav {
+.navbar {
     position: relative;
     z-index: 2;
     margin: 0 auto;
     background-color: #e7f3ff;
     width: 90%;
     border-radius: 25px;
-    padding: 5px;
+    padding: 10px;
 }
 
-.nav-pills {
-    justify-content: center; /* Centers Links */
+a .nav-link {
+    margin: 0 auto;
 }
 
-.nav-link :active {
-    border-radius: 25px; /* Trying to Round Active Link Pill */
-    color: red;
-}
 /* NAVBAR END */
 
 

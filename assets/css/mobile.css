@@ -5,6 +5,11 @@
         height: auto;
     }
 
+    form {
+        margin: 0 auto;
+        width: 90%;
+    }
+
     /*.burger-nav {
         display: block;
         height: 40px;

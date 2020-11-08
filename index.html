@@ -3,13 +3,14 @@
     
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Mike Sasiela</title>
         <link rel="stylesheet" href="assets/css/bootstrap.css"/>
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link rel="stylesheet" href="assets/css/profile.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Concert+One&family=Kaushan+Script&family=Righteous&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="assets/css/mobile.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
     </head>
     
     <body>
@@ -27,22 +28,19 @@
         <!--END BACKGROUND ELEMENTS-->
 
         <!--NAVBAR-->
-        <nav>
-            <div class="wrapper">
-                <a class="burger-nav"></a>
-                <div class="nav justify-content-center">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Main Profile</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">My Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar">
+            <div class="nav justify-content-center">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Main Profile</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">My Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <!--END NAVBAR-->
@@ -50,19 +48,26 @@
         <!--JUMBOTRON-->
         <div class="jumbotron">
             <h2 class="display-4">About Me</h2>
-            <img src="assets/images/MJSunset.jpg" alt="Image of Joradn and Mike with a Sunset">
 
-                <div class="aboutmelist">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/MJSunset.jpg" alt="Image of Joradn and Mike with a Sunset">
+                </div>
+
+                <div class="col-md-8" id="aboutmelist">
                     <ul>
                         <li>My name is Mike Sasiela and I am married to my beautiful wife Jordan</li>
                         <li>We are the proud dog parents of 2 amazing dogs</li>
                         <li>I am currently working for Premium Retail as an IT Support Specialist</li>
                     </ul>
                 </div>
+            </div>
 
-            <br>
-
-            <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/michael-sasiela-04121992/" target="_blank" role="button">Learn more</a>
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/michael-sasiela-04121992/" target="_blank" role="button">Learn more</a>
+                </div>
+            </div>
         </div>
 
         <!--JUMBOTRON END-->

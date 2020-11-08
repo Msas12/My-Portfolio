@@ -16,8 +16,9 @@ label {
     background-color: #e7f3ff;
 }
 
-.btn-primary {
-    margin-left: 40%;
+.btn {
+    display: block;
+    margin: 0 auto;
     border-radius: 25px;
 }
 

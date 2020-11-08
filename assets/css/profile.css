@@ -16,17 +16,9 @@
 
 img {
     border-radius: 25px;
-    width: auto;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
-
-.aboutmelist {
-    float: right;
-    margin-right: 20%;
-    font-size: 150%;
-
-}
-
 
 .btn {
     margin-top: 50px;
