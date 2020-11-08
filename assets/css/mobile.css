@@ -11,7 +11,7 @@
 @media (max-width: 767px) {
 
     #aboutmelist {
-        font-size: 150%;
+        font-size: 100%;
         margin-top: 20px;
     }
 
@@ -51,10 +51,6 @@
       }
 
 }
-
-
-
-
 
 /* Small devices (landscape phones, 500px and below) */
 @media (max-width: 500px) {
