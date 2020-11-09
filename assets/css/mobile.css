@@ -104,7 +104,7 @@
     }
 
     .burger-nav {
-        position: absolute;
+        position: relative;
         z-index: 3;
         display: block;
         height: 55px;
