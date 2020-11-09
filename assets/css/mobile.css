@@ -69,44 +69,49 @@
         height: 100px;
         left: -50px;
         bottom: -50px;
-      }
+    }
       
-      .medium{
+    .medium{
         width: 200px;
         height: 200px;
         left: -100px;
         bottom: -100px;
-      }
+    }
       
-      .large{
+    .large{
         width: 300px;
         height: 300px;
         left: -150px;
         bottom: -150px;
-      }
+    }
       
-      .xlarge{
+    .xlarge{
         width: 400px;
         height: 400px;
         left: -200px;
         bottom: -200px;
-      }
+    }
       
-      .xxlarge{
+    .xxlarge{
         width: 500px;
         height: 500px;
         left: -250px;
         bottom: -250px;
-      }
-    
-}
+    }
 
+    .nav-item {
+        display: none;
+    }
 
-    /*.burger-nav {
+    .burger-nav {
+        position: absolute;
+        z-index: 3;
         display: block;
-        height: 40px;
-        width: 100%;
-        background-image: url(./assets/images/burger.png);
-        background-color: #e7f3ff;
+        height: 55px;
+        width: 15%;
+        background: url(../images/burger.png);
         cursor: pointer;
     }
+    
+    
+}
