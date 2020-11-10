@@ -10,6 +10,10 @@
 /* Medium devices (landscape phones, 767px up until 500px) */
 @media (max-width: 767px) {
 
+    .nav-item .active {
+        padding-left: 8px;
+        margin-top: 3px;
+
     #aboutmelist {
         font-size: 100%;
         margin-top: 20px;
@@ -61,7 +65,7 @@
     }
 
     #aboutmelist {
-        font-size: 90%;
+        font-size: 100%;
     }
 
     .small{
@@ -98,20 +102,5 @@
         left: -250px;
         bottom: -250px;
     }
-
-    .nav-item {
-        display: none;
-    }
-
-    .burger-nav {
-        position: relative;
-        z-index: 3;
-        display: block;
-        height: 55px;
-        width: 15%;
-        background: url(../images/burger.png);
-        cursor: pointer;
-    }
-    
     
 }

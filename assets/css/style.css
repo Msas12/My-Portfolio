@@ -109,10 +109,13 @@ body{
     background-color: #e7f3ff;
     width: 90%;
     border-radius: 25px;
-    padding: 10px;
+    padding: 12px;
 }
 
-.nav .active {
+
+.nav-item .active {
+    display: block;
+    background:  #3399ff;
     border-radius: 25px; /*Cannont figure out how to change element active */
 }
 
