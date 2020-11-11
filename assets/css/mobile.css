@@ -1,6 +1,11 @@
 /* Medium devices (landscape phones, 1000px until 500px) */
 @media (max-width: 1000px) {
 
+    form {
+        margin: 0 auto;
+        width: 85%;
+    }
+
     #aboutmelist {
         font-size: 150%;
     }
@@ -10,13 +15,23 @@
 /* Medium devices (landscape phones, 767px up until 500px) */
 @media (max-width: 767px) {
 
-    .nav-item .active {
-        padding-left: 8px;
-        margin-top: 3px;
+    .profile {
+        margin-top: 5px;
+
+    }
+
+    form {
+        margin: 0 auto;
+        width: 85%;
+    }
 
     #aboutmelist {
         font-size: 100%;
         margin-top: 20px;
+    }
+
+    .nav-link {
+        text-align: center;
     }
 
     .small{
