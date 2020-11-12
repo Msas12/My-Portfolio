@@ -118,6 +118,12 @@ body{
     background:  #3399ff;
     border-radius: 25px; /*Cannont figure out how to change element active */
 }
+/* NAVBAR END */
 
+/* FOOTER SOCIAL LINKS */
+.social-links {
+  height: 40px;
+  width: auto;
+}
 
 
