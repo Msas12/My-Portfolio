@@ -26,7 +26,7 @@ Can view Profile, Portfolio, and contact pages by clicking on navbar links.
 
 Social links in footer all open new tabs to my profile on each respective website.
 
-When looking at the website on mobile the navbar turns into a more mobile friendly navbar with working burger menu button.d
+When looking at the website on mobile the navbar turns into a mobile friendly navbar with working burger menu button.
 
 Profile page has mobile responsive rows of images.
     Images get bigger and rows split from 4 images to 2 to 1 based on screen size.
