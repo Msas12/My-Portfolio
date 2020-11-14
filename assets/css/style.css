@@ -126,4 +126,9 @@ body{
   width: auto;
 }
 
+footer {
+  position: relative;
+  z-index: 2;
+}
+
 
